@@ -174,7 +174,29 @@ input[type]:checked ~ span.medio {
   line-height: 80px;
 
 }*/
-/* Establece la posición de la imagen */
+.contenidoHeader{
+  width: 100%;
+  height: 600px;
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.contenidoHeader>img{
+  width: 550px;
+  animation: ease-in animat 1s;
+}
+@keyframes animat {
+  0% {
+      transform: scale(0);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+
+/*  SIPEOSCA Establece la posición de la imagen */
 /* Agrega una transición suave */
 .contenedorSipe{
   position: relative;
